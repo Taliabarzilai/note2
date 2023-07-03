@@ -1,0 +1,49 @@
+* {
+    font-size: 20;
+}
+
+body {
+    background: url(photo/background.jpg);
+    text-align: center;
+}
+
+.notes-app textarea {
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.notes-app label {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.notes-app input {
+    margin: 10px 0;
+    width: 250px;
+    height: 50px;
+
+    font-size: 1rem;
+}
+
+.notes-app button {
+    padding: 5px;
+    width: 100px;
+    margin-left: 10px;
+
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#notes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#notes .note {
+    background-image: url(photo/note.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    padding-top: 50px;
+}

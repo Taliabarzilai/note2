@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="notes-app">
+        <h1>My Notes Board</h1>
+        <textarea id="text" cols="40" rows="5"
+        placeholder="הכנס את המשימה שלך פה"
+        ></textarea>
+        <div>
+            <label>Date: </label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <label>Time: </label>
+            <input type="time" name="time" id="time">
+        </div>
+        <button onclick="createNote()">Create</button>
+    </div>
+
+    <div id="notes">
+        
+       
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
